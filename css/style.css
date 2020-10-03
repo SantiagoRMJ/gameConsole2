@@ -1,0 +1,270 @@
+#genCont{
+    background-color: wheat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shadowCons{
+    background-color: yellowgreen;
+    height: 21.7em;
+    width: 50em;
+    border-radius: 20% 20% 20% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#brightCons{
+    background-color: tomato;
+    height: 21em;
+    width: 49em;
+    Border-radius: 20% 20% 20% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#console{
+    background-color: teal;
+    height: 20em;
+    width: 48.5em;
+    Border-radius: 20% 20% 20% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+/********************************
+*********************************
+******* LEFT PANEL **************
+*********************************
+********************************/
+
+#leftSide{
+    background-color: yellow;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+#contSelect{
+    background-color: greenyellow;
+    height: 20%;
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#select{
+    height: 0.3em;
+    width: 1.2em;
+    background-color: palegreen;
+    border: 1px solid black;
+    margin-right: 0.5em;
+}
+
+/********************************
+*********************************
+*******   LEFT JOYSTICK   *******
+*********************************
+********************************/
+
+
+#contLeftJoystick{
+    background-color: red;
+    height: 20%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outsideJoystick{
+    height: 3.5em;
+    width: 3.5em;
+    border: 1px solid black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#insideJoystick{
+    height: 3em;
+    width: 3em;
+    background-color: palegreen;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+/********************************
+*********************************
+*******   LEFT SPACE    *********
+*********************************
+********************************/
+#leftSpace{
+    background-color: green;
+    height: 10%;
+    width: 100%; 
+}
+/********************************
+*********************************
+*******   LEFT CROSS      *******
+*********************************
+********************************/
+#contCross{
+    background-color: palegreen;
+    height: 30%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/********************************
+*********************************
+*******   TOP CROSS       *******
+*********************************
+********************************/
+#cross{
+    background-color: red;
+    height: 5em;
+    width: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contTopCross{
+    background-color: blueviolet;
+    height: 33%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#leftTopCross{
+    background-color: white;
+    height: 100%;
+    width: 33%;
+}
+#midTopCross{
+    background-color: black;
+    height: 100%;
+    width: 33%;
+}
+#rightTopCross{
+    background-color: gray;
+    height: 100%;
+    width: 33%;
+}
+
+/********************************
+*********************************
+*******   MID CROSS       *******
+*********************************
+********************************/
+#contMidCross{
+    background-color: orange;
+    height: 33%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#leftMidCross{
+    background-color: black;
+    height: 100%;
+    width: 33%;
+}
+#midMidCross{
+    background-color: black;
+    height: 100%;
+    width: 33%;
+}
+#rightMidCross{
+    background-color: black;
+    height: 100%;
+    width: 33%;
+}
+
+
+
+
+
+/********************************
+*********************************
+*******   BOT CROSS       *******
+*********************************
+********************************/
+#contBotCross{
+    background-color: brown;
+    height: 33%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#leftBotCross{
+    background-color: burlywood;
+    height: 100%;
+    width: 33%;
+}
+#midBotCross{
+    background-color: black;
+    height: 100%;
+    width: 33%;
+}
+#rightBotCross{
+    background-color: fuchsia;
+    height: 100%;
+    width: 33%;
+}
+
+
+
+
+
+
+#contPhoto{
+    background-color: teal;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#photoButton{
+    background-color: fuchsia;
+    height: 1.2em;
+    width: 1.2em;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#intPhoto{
+    background-color: fuchsia;
+    height: 80%;
+    width: 80%;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+#center{
+    background-color: blue;
+    height: 100%;
+    width: 70%;   
+}
+#rightSide{
+    background-color: pink;
+    height: 100%;
+    width: 15%;     
+}
