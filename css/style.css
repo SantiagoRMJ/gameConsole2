@@ -280,15 +280,253 @@
     width: 85%;
     border: 5px solid black;
 }
-
-
-
-
-
-
-
+/******************************************************************************************************
+*******************************************************************************************************
+******************************************* RIGHT PANEL ***********************************************
+*******************************************************************************************************
+*******************************************************************************************************/
 #rightSide{
     background-color: pink;
     height: 100%;
-    width: 15%;     
+    width: 15%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;       
+}
+/********************************
+*********************************
+*******  START BUTTON     *******
+*********************************
+********************************/
+#contStart{
+    background-color: greenyellow;
+    height: 20%;
+    width: 100%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#startCross{
+    height: 1.2em;
+    width: 1.2em;
+    margin-left: 0.5em;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#topStartCross{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#leftTopSC{
+    height: 0.4em;
+    width: 0.4em;
+    background-color: red;
+}
+#midTopSC{
+    height: 0.4em;
+    width: 0.4em;
+    background-color: black;
+}
+#rightTopSC{
+    height: 0.4em;
+    width: 0.4em;
+    background-color: green;
+}
+
+#midStartCross{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+#leftMidSC{
+    height: 0.4em;
+    width: 0.4em;
+    background-color: black;
+}
+#midMidSC{
+    height: 0.4em;
+    width: 0.4em;
+    background-color: red;
+}
+#rightMidSC{
+    height: 0.4em;
+    width: 0.4em;
+    background-color: black;
+}
+
+
+
+
+#botStartCross{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#leftBotSC{
+    height: 0.4em;
+    width: 0.4em;
+    background-color: yellow;
+}
+#midBotSC{
+    height: 0.4em;
+    width: 0.4em;
+    background-color: black;
+}
+#rightBotSC{
+    height: 0.4em;
+    width: 0.4em;
+    background-color: blue;
+}
+
+
+/********************************
+*********************************
+*******     BUTTONS     *********
+*********************************
+********************************/
+#contButtons{
+    background-color: red;
+    height: 30%;
+    width: 100%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+#contX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 33%;
+    width: 100%;
+}
+#xButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    height: 1.7em;
+    width: 1.7em;
+    border-radius: 100%;
+    
+}
+#xText{
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contYA{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: red;
+    height: 33%;
+    width: 100%;
+}
+#yButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: 1.7em;
+    width: 1.7em;
+    border-radius: 100%;
+}
+#yText{
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: turquoise;
+    height: 1.7em;
+    width: 1.7em;
+    border-radius: 100%;
+}
+#aText{
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    height: 33%;
+    width: 100%;
+}
+#bButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    height: 1.7em;
+    width: 1.7em;
+    border-radius: 100%;
+}
+#bText{
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+#contRightJoystick{
+    background-color: black;
+    height: 30%;
+    width: 100%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#contHome{
+    background-color: blue;
+    height: 20%;
+    width: 100%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
