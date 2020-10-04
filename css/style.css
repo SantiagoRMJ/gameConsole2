@@ -221,11 +221,11 @@
     width: 33%;
 }
 
-
-
-
-
-
+/********************************
+*********************************
+*******  PHOTO BUTTON  **********
+*********************************
+********************************/
 #contPhoto{
     background-color: teal;
     height: 20%;
@@ -506,22 +506,42 @@
 }
 
 
-
-
-
-
-
-
-
+/********************************
+*********************************
+*******  RIGHT JOYSTICK  ********
+*********************************
+********************************/
 
 #contRightJoystick{
     background-color: black;
     height: 30%;
     width: 100%; 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
+
+#outsideRightJoystick{
+    height: 3.5em;
+    width: 3.5em;
+    border: 1px solid wheat;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#insideRightJoystick{
+    height: 3em;
+    width: 3em;
+    background-color: palegreen;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+/********************************
+*********************************
+*********  HOME BUTTON  *********
+*********************************
+********************************/
 #contHome{
     background-color: blue;
     height: 20%;
@@ -529,4 +549,21 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+#homeButton{
+    background-color: fuchsia;
+    height: 1.2em;
+    width: 1.2em;
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#intHome{
+    background-color: fuchsia;
+    height: 80%;
+    width: 80%;
+    border-radius: 100%;
+    border: 1px solid black;
+
 }
